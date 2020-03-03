@@ -1,0 +1,186 @@
+/* Color Theme Swatches in Hex */
+.RENAULT-TRAFIC-1-hex { color: #010626; }
+.RENAULT-TRAFIC-2-hex { color: #011126; }
+.RENAULT-TRAFIC-3-hex { color: #F2E3B6; }
+.RENAULT-TRAFIC-4-hex { color: #D9C5A0; }
+.RENAULT-TRAFIC-5-hex { color: #8C8070; }
+
+/*--------------------------------------------------------------*/
+
+
+body {
+    background-color: #010626;
+    margin: 0px; padding: 0px;
+}
+
+.card-aboutme {
+    height: 500px;
+    background-color: #383a49;
+    margin: 50px 50px;
+    width: 600px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 25px;
+    padding: 50px;
+    box-shadow: #F2E3B6  0px 0px 15px;
+}
+
+.card-header {
+    width: 50%;
+    height: 50%;
+    margin: 0px 0px;
+    padding: 50px 25px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    border-radius: 120px;
+
+
+}
+.card-image {
+    background-image: url(img/myphoto.jpg);
+    transform: rotate(90deg);
+}
+
+.card-content {
+    text-align: center;
+    color:#D9C5A0;
+
+}
+.card-content h1 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.2em;
+}
+.card-media {
+    margin: 0px 0px;
+    display: inline-block;
+    width: 20px;
+    border-radius: 50%;
+}
+.card-media a { 
+    padding: 10px;
+}
+.card-media a img {
+    width: 25px;
+    display: inline-block;
+}
+
+
+.content-description {
+    display: inline-block;
+    font-size: larger;
+    width: 30%;
+    color: white;
+    margin: 200px 100px;
+    position: absolute;
+    font-style: italic;
+}
+.yeon {
+    color: #8C8070;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.digital-lang {
+    text-align: justify;
+    display: inline-block;
+    margin: 20px;
+}
+
+.professional-exp {
+    display: inline-block;
+    margin: 30px;
+}
+
+.about-me {
+    vertical-align: 25;
+    width: 22%;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0 20px;
+    display: inline-block;
+    background-color: #F2E3B6;
+    border-radius: 55px;
+    box-shadow: #010626 -18px 3px 32px;
+    padding: 2%;
+
+}
+
+.website-header {
+    text-align: justify;
+    background-color:  #D9C5A0;
+    margin: 0 auto;
+    padding: 30px 30px;
+
+}
+
+.website-contenido {
+    text-align: center;
+}
+.website-title h1 {
+    margin: 0;
+}
+.website-title {
+    vertical-align: 153px;
+    margin: 30px 54px;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 70px;
+    color: rgb(82, 5, 82);
+    font-family: 'Dancing Script', cursive;
+}
+
+.website-title p {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.website-title hr {
+    margin: 0;
+    border-spacing: 2px;
+    border-top: 5px;
+    border-color: rgb(82, 5, 82);
+}
+
+.skills {
+    display: inline-block;
+    width: 480px;
+
+}
+
+.website-ending {
+    font-size: 25px;
+    background-color: #D9C5A0;
+}
+
+.website-contactme {
+    text-align: center;
+    color: #8C8070;
+    padding: 55px;
+}
+.website-contactme p {
+    margin: 20px auto;
+}
+.website-contactme em {
+    display: block;
+}
+.website-contactme a {
+    display: inline-block;
+}
+.behance {
+    background-color: blue;
+    background-image: url(img/behance-network.png);
+    display: inherit;
+}
+.linkedin {
+    background-color: rgb(52, 172, 252);
+    background-image: url(img/linkedin.png);
+    display: inherit;
+}
+.google {
+    background-image: url(img/google-plus.png);
+    display: inherit;
+
+}
